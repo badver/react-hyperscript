@@ -51,5 +51,5 @@ function parseTag(tag, props) {
     props.className = classes.join(' ');
   }
 
-  return tagName ? tagName.toLowerCase() : 'div';
+  return tagName ? tagName : 'div';
 }
